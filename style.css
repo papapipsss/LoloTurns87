@@ -5,6 +5,11 @@ Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
 
 */
 
+/* MAIN ID'S */
+#family #relatives #teachers{
+	display: none;	
+}
+
 
 
 /* GENERAL STYLES */
@@ -69,29 +74,36 @@ body{
 /* CAROUSEL STYLES */
 
 .container{
-	width: 60rem;
+	width: 50rem;
 	height:auto;
 }
 
-
-:root{
-    --box-width-twice: 300px;
-    --box-height-twice: 200px;
+.carousel-images{
+	width: 50rem;
+	height: auto;
 }
 
-.sections{
+
+/* PHOTO BLOCKS STYLES */
+
+:root{
+    --box-width: 350px;
+    --box-height: 250px;
+}
+
+#sections{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .boxesT{
-    width: var(--box-width-twice);
-    height: var(--box-height-twice);
+    width: var(--box-width);
+    height: var(--box-height);
     background-color: #F1DDBF;
     border-radius:10px;
     border: 3px solid #3C2C3E;
-    margin: 0.5% 3% 1.5% 3%;
+    margin: 0.5% 2% 1.5% 2%;
     display:flex;
     justify-content:center;
     align-content: center;
@@ -99,7 +111,7 @@ body{
 }
 
 .boxesT:hover{
-    transform: scale(1.3,1.3);
+    transform: scale(1.4,1.4);
 }
 
 .image{
@@ -109,6 +121,16 @@ body{
     margin-top:1.5%;
 }
 
+
+
+/* FOOTER */
+
+.footer-text{
+	font-size: 0.85em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0%;
+	text-align: center;
+}
 
 
 /* SCREEN SIZE STYLES */
