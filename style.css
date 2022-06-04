@@ -1,3 +1,13 @@
+/* 
+REFERENCES:
+
+Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
+
+*/
+
+
+
+/* GENERAL STYLES */
 *{
 	margin: 0;
 }
@@ -24,20 +34,12 @@ body{
 	background-color: gray;
 }
 
-
-#big-picture{
-	background-image: url('https://i.postimg.cc/T10Mf7Ps/IMG-1485.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-	height: 100vh;
+.section-pad{
+    padding: 3rem 0 0 0;
 }
 
 
-.container{
-	width:50%;
-	height:auto;
-}
+/* NAVIGATION BAR STYLES */
 
 .sticky {
     position: fixed;
@@ -50,21 +52,66 @@ body{
 
 .navbar-custom{
     background-color: #F4DFD0;
-
-}
-
-.section-pad{
-    padding: 2rem 0 0 0;
 }
 
 
-/* 
-Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
+/* BANNER STYLES */
+
+#big-picture{
+	background-image: url('https://i.postimg.cc/T10Mf7Ps/IMG-1485.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100vh;
+}
 
 
-*/
+/* CAROUSEL STYLES */
+
+.container{
+	width: 60rem;
+	height:auto;
+}
 
 
+:root{
+    --box-width-twice: 300px;
+    --box-height-twice: 200px;
+}
+
+.sections{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxesT{
+    width: var(--box-width-twice);
+    height: var(--box-height-twice);
+    background-color: #F1DDBF;
+    border-radius:10px;
+    border: 3px solid #3C2C3E;
+    margin: 0.5% 3% 1.5% 3%;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    transition: transform 500ms ease-in-out 25ms;
+}
+
+.boxesT:hover{
+    transform: scale(1.3,1.3);
+}
+
+.image{
+    width: 95%;
+    height:95%;
+    border-radius:10px;
+    margin-top:1.5%;
+}
+
+
+
+/* SCREEN SIZE STYLES */
 
 @media only screen and (min-width:874px) and (max-width:1449px){
 	#big-picture{
