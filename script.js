@@ -8,6 +8,6 @@ for(let x = 1; x < 10; x++){
 
 
 for (let x = 1; x < 10; x++){
-    const element = '<div class="carousel-item"><img class="carousel-images" src="' + temp_photo + '" alt="' + x + ' slide"></div>';
+    const element = '<div class="carousel-item"><img class="d-block w-100" src="' + temp_photo + '" alt="' + x + ' slide"></div>';
     document.querySelector('.carousel-inner').innerHTML += element;
 }
