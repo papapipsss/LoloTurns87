@@ -59,24 +59,29 @@ body{
 /* BANNER STYLES */
 
 #big-picture{
-	background-image: url('https://wallpaperaccess.com/full/1886918.png');
+	background-image: url('https://i.postimg.cc/CLFsXbvX/DSC02951.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
 	height: 100vh;
+	margin-top: 1rem;
 }
 
 
 /* CAROUSEL STYLES */
 
 .container{
-	width: 50rem;
+	width:50rem;
 	height:auto;
 }
 
 .carousel-images{
-	width: 50rem;
-	height: auto;
+	width: 40%;
+	height: 30%;
+}
+
+.section-pad{
+	padding: 3rem 0 2rem 0;
 }
 
 
