@@ -7,7 +7,7 @@ for(let x = 1; x < 18; x++){
 }
 
 for (let x = 2; x < 18; x++){
-    const element = '<div class="carousel-item"><img class="d-block w-100 carousel-image" src="./assets/new-carousel/' + x + '-edited.jpg" alt="' + x + ' slide"></div>';
+    const element = '<div class="carousel-item"><img class="d-block w-100" src="./assets/new-carousel/' + x + '-edited.jpg" alt="' + x + ' slide"></div>';
     document.querySelector('.carousel-inner').innerHTML += element;
 }
 
