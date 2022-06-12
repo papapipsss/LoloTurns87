@@ -10,7 +10,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg sticky navbar-custom">
@@ -22,9 +22,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#mainBanner">Home</a>
-                    <a class="nav-link" href="#photoCarousel">Family</a>
-                    <a class="nav-link" href="#photoBoxes">Relatives</a>
-                    <a class="nav-link disabled" href="#teachers">Teachers</a>
+                    <a class="nav-link" href="#family">Family</a>
+                    <a class="nav-link" href="#relatives">Relatives</a>
+                    <a class="nav-link" href="#acquaintances">Acquaintances</a>
+                    <a class="nav-link" href="#pastVideos">Videos</a>
                 </div>
                 </div>
             </div>
@@ -34,36 +35,57 @@
             <!-- BANNER BAR HERE -->
             <div id="big-picture"></div>
         </section>
-
+        
+        <!-- <div id="button"><button onclick="myFunction()">Stop Transition</button></div> -->
         <section id="photoCarousel" class="section-pad">
+        
             <!-- PHOTO CAROUSEL HERE -->
-            <div class="container">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-				<div class="carousel-inner">
-				  <div class="carousel-item active">
-					<img class="d-block w-100" src="https://www.pixelstalk.net/wp-content/uploads/images5/Soft-Aesthetic-Wallpaper-HD-Free-download.jpg" alt="First slide">
-				  </div>
-				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="sr-only"></span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="sr-only"></span>
-				</a>
-			  </div>
+            <div class="horizontal-container">
+                <div id="carouselExampleIndicators1" class="carousel slide horizontal-block" data-ride="carousel">
+                    <div class="carousel-inner horizontal">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/new-carousel/1-edited.jpg" alt="First slide">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                    </a>
+                </div>
+		    </div>
+
+            <div class="vertical-container">
+                <div id="carouselExampleIndicators2" class="carousel slide vertical-block" data-ride="carousel">
+                    <div class="carousel-inner vertical">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/new-vertical/01-edited.jpg" alt="First slide">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                    </a>
+                </div>
 		    </div>
         </section>
 
         <section id="photoBoxes" class="section-pad">
             <!-- PHOTO BOXES HERE -->
-             <div id="sections"><div> 
+             <div class="sections" id="photo-sections"><div> 
         </section>
 
-        <section id="family" class="section-pad">
+        <section id="family" class="section-pad hide">
             <!-- FAMILY SECTION HERE -->
-            <section>
+            <h1 id="text">Birthday Message from Family</h1>
+            <section class="sections" id="vid-sections-family">
                 <!-- VIDEOS SECTION HERE -->
             
             </section>
@@ -77,9 +99,27 @@
         </section>
 
 
-        <section id="relatives" class="section-pad">
+        <section id="relatives" class="section-pad hide">
             <!-- RELATIVES SECTION HERE -->
+            <h1 id="text">Birthday Message from Relatives</h1>
+            <section class="sections" id="vid-sections-relatives">
+                <!-- VIDEOS SECTION HERE -->
+
+            </section>
+            
+
             <section>
+                <!-- MESSAGES SECTION HERE -->
+            
+            </section>
+            
+        </section>
+
+
+        <section id="acquaintances" class="section-pad hide">
+            <!-- ACQUAINTANCE SECTION HERE -->
+            <h1 id="text">Birthday Message from Acquaintances</h1>
+            <section  class="sections" id="vid-sections-acquaintances">
                 <!-- VIDEOS SECTION HERE -->
             
             </section>
@@ -92,21 +132,13 @@
             
         </section>
 
-
-        <section id="teachers">
-            <!-- ASSOCIATES SECTION HERE -->
-
-            <section>
-                <!-- VIDEOS SECTION HERE -->
-            
-            </section>
-            
-
-            <section>
-                <!-- MESSAGES SECTION HERE -->
-            
-            </section>
-            
+        <section id="pastVideos" class="hide">
+            <!-- PAST VIDEO GREETINGS HERE -->
+            <h1 id="text">Past Videos</h1>
+            <div class="sections">
+                <iframe src="https://drive.google.com/file/d/1UgKDk_an_T2xuQiSyfm2oJsVjvexTCoK/preview" width="640" height="480" allowfullscreen allow="autoplay" class="past-videos-block"></iframe>
+                <iframe src="https://drive.google.com/file/d/1AKZqK6xLTbEe_WKWb_25nfT0zdWjwtmQ/preview" width="640" height="480" allowfullscreen allow="autoplay" class="past-videos-block"></iframe>
+            </div>
         </section>
 		
 		<footer>

@@ -5,14 +5,24 @@ Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
 
 */
 
-/* MAIN ID'S */
-#family #relatives #teachers{
-	display: none;	
+
+/* CONSTANTS */
+
+:root{
+    --box-width: 350px;
+    --box-height: 250px;
+	--vid-width: 500px;
+	--vid-height: 350px;
+	--past-vid-width: 700px;
+	--past-vid-height: 400px;
 }
 
 
-
 /* GENERAL STYLES */
+.hide{
+	display: block;	
+}
+
 *{
 	margin: 0;
 }
@@ -36,7 +46,7 @@ body{
 }
 
 .section-pad{
-    padding: 3rem 0 0 0;
+    padding: 2.5rem 0 0 0;
 }
 
 
@@ -69,13 +79,43 @@ body{
 
 /* CAROUSEL STYLES */
 
+/* #button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2% 0%;
+	border: none;
+	color: white;
+	cursor: pointer;
+} */
+
 #photoCarousel{
-	transform: scale(0.80);
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+	align-items: center;
 }
 
-.container{
-	width:50rem;
+.horizontal-block{
+	transform: scale(0.80);
+	border: 5px solid #3C2C3E;
+	border-radius:10px;
+}
+
+.vertical-block{
+	transform: scale(0.80);
+	border: 5px solid #3C2C3E;
+	border-radius:10px;
+}
+
+.horizontal-container{
+	width:55rem;
 	height:auto;
+}
+
+.vertical-container{
+	width: 30rem;
+	height: auto;
 }
 
 .carousel-control-next .carousel-control-prev{
@@ -84,12 +124,7 @@ body{
 
 /* PHOTO BLOCKS STYLES */
 
-:root{
-    --box-width: 350px;
-    --box-height: 250px;
-}
-
-#sections{
+.sections{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -117,6 +152,36 @@ body{
     height:95%;
     border-radius:10px;
     margin-top:1.5%;
+}
+
+/* VIDEOS */
+
+.videos{
+	width: var(--vid-width);
+	height: var(--vid-height);
+	border-radius:10px;
+	border: 3px solid black;
+	margin: 0.5% 2% 1.5% 2%;
+}
+
+
+/* RELATIVES */
+#text{
+	font-size: 4em;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	padding: 1% 5%;
+}
+
+
+/* PAST VIDEOS */
+
+.past-videos-block{
+	width: var(--past-vid-width);
+	height: var(--past-vid-height);
+	border-radius:10px;
+	border: 3px solid black;
+	margin: 0.5% 2% 1.5% 2%;
 }
 
 
