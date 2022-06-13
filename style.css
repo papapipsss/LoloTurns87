@@ -22,7 +22,7 @@ Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
 
 /* GENERAL STYLES */
 .hide{
-	display: none;	
+	display: block;	
 }
 
 #text{
@@ -142,7 +142,7 @@ body{
 }
 
 .boxesT:hover{
-    transform: scale(1.4,1.4);
+    transform: scale(1.6);
 }
 
 .image{
@@ -221,8 +221,6 @@ body{
 	margin: 0.5% 2% 1.5% 2%;
 }
 
-
-/* SECTIONS */
 
 /* FOOTER STYLES */
 
@@ -431,4 +429,3 @@ body{
 		width: 15rem;
 	}
 }
-
