@@ -22,7 +22,7 @@ Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
 
 /* GENERAL STYLES */
 .hide{
-	display: block;	
+	display: none;	
 }
 
 #text{
