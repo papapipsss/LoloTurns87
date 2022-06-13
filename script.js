@@ -41,3 +41,18 @@ for (let x = 0; x < vid_links_acquaintances.length; x++){
     const element = '<iframe src="https://drive.google.com/file/d/' + vid_links_acquaintances[x] + '/preview" width="640" height="480" allow="autoplay" allowfullscreen class="videos"></iframe>'
     document.getElementById("vid-sections-acquaintances").innerHTML += element;
 }
+
+// MUSIC PLAYER
+function play() {
+    var music = document.getElementById("music");
+    var audio = document.getElementById("audio");
+
+    if (music.style.display === "block") {
+        audio.play();
+        music.style.display = "inline";
+      } else {
+        music.style.display = "block";
+        audio.pause();
+      }
+
+}

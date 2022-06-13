@@ -221,6 +221,12 @@ body{
 	margin: 0.5% 2% 1.5% 2%;
 }
 
+/* MUSIC STYLES */
+
+#music{
+	display:block;
+}
+
 
 /* FOOTER STYLES */
 
