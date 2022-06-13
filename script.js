@@ -2,7 +2,7 @@ var vid_links_relatives = ["13O1hb8crN573GrM6iJ0t0kVfj87h42ZU", "12-dAQvleg0nYCb
 
 var vid_links_family = [];
 
-var vid_links_acquaintances = []
+var vid_links_acquaintances = ["1ye-QaXqBoS-3suDfn4QYyOYzAI-ckbch"];
 
 
 // PHOTO BLOCKS
@@ -26,20 +26,20 @@ for (let x = 2; x < 33; x++){
 }
 
 
-// FAMILY
+// FAMILY VIDEOS
 for (let x = 0; x < vid_links_family.length; x++){
     const element = '<iframe src="https://drive.google.com/file/d/' + vid_links_family[x] + '/preview" width="640" height="480" allow="autoplay" allowfullscreen class="videos"></iframe>'
     document.getElementById("vid-sections-family").innerHTML += element;
 }
 
 
-// RELATIVES 
+// RELATIVES VIDEOS
 for (let x = 0; x < vid_links_relatives.length; x++){
     const element = '<iframe src="https://drive.google.com/file/d/' + vid_links_relatives[x] + '/preview" width="640" height="480" allow="autoplay" allowfullscreen class="videos"></iframe>'
     document.getElementById("vid-sections-relatives").innerHTML += element;
 }
 
-// ACQUAINTANCES 
+// ACQUAINTANCES VIDEOS
 for (let x = 0; x < vid_links_acquaintances.length; x++){
     const element = '<iframe src="https://drive.google.com/file/d/' + vid_links_acquaintances[x] + '/preview" width="640" height="480" allow="autoplay" allowfullscreen class="videos"></iframe>'
     document.getElementById("vid-sections-acquaintances").innerHTML += element;
@@ -53,13 +53,3 @@ for (let x = 0; x < vid_links_acquaintances.length; x++){
 //       x.style.display = "none";
 //     }
 //   }
-// var temp_photo = "https://www.pixelstalk.net/wp-content/uploads/images5/Soft-Aesthetic-Wallpaper-HD-Free-download.jpg"
-// for(let x = 1; x < 10; x++){
-//     const element = '<div class="boxesT"><img src="' + temp_photo + '" alt="" class="image"></div>'
-//     document.getElementById("sections").innerHTML += element;
-// }
-
-// for (let x = 2; x < 18; x++){
-//     const element = '<div class="carousel-item"><img class="d-block w-100" src="' + temp_photo + '" alt="' + x + ' slide"></div>';
-//     document.querySelector('.carousel-inner').innerHTML += element;
-// }
