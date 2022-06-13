@@ -249,8 +249,8 @@ body{
 	}
 
 	.boxesT{
-		width: 800px;
-		height: 500px;
+		width: 500px;
+		height: 300px;
 	}
 
 	.boxesT:hover{
@@ -258,13 +258,13 @@ body{
 	}
 
 	.videos{
-		width: 55rem;
-		height: 35rem;
+		width: 50rem;
+		height: 30rem;
 	}
 
 	.past-videos-block{
-		width: 55rem;
-		height: 35rem;
+		width: 50rem;
+		height: 30rem;
 	}
 
 	.boxesQ{
@@ -295,12 +295,12 @@ body{
 	}
 
 	.boxesT{
-		width: 500px;
-		height: 350px;
+		width: 350px;
+		height: 250px;
 	}
 
 	.boxesT:hover{
-		transform: scale(1.15);
+		transform: scale(1.2);
 	}
 
 	#text{
