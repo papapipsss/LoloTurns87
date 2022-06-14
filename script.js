@@ -1,24 +1,24 @@
-var vid_links_family = [];
+var vid_links_family = ["1EDT_fMWvs0RoN3P-k6oNLxnD1pgilP2S", "1TuJHnIpURD7CmaS6zNentaGJe8dj_OgY", "1G75DuNXoBEXE3F2D5GIuqkl23bA1S0Mi", "1WCZpHGJIjt81jTHvOPm_Z0QU2YwRpY3N"];
 
-var vid_links_relatives = ["13O1hb8crN573GrM6iJ0t0kVfj87h42ZU", "12-dAQvleg0nYCbLIvYWW3RINy69CGZ83", "108QGz-YDJu0NMuIptenD5z_6pbc2bRCC"];
+var vid_links_relatives = ["13O1hb8crN573GrM6iJ0t0kVfj87h42ZU", "12-dAQvleg0nYCbLIvYWW3RINy69CGZ83", "108QGz-YDJu0NMuIptenD5z_6pbc2bRCC", "1IcwuACTp4W2Gq0VM6nSfY-1nuCZN1YZD", "11dCGA2PLJCini9IXxluQMrdSxHSx4G33"];
 
-var vid_links_acquaintances = ["1ye-QaXqBoS-3suDfn4QYyOYzAI-ckbch"];
+var vid_links_acquaintances = ["1ye-QaXqBoS-3suDfn4QYyOYzAI-ckbch", "1jtd5aRJo-coJAmYBqZirudqH53LUrb3b"];
 
 
 // HORIZONTAL CAROUSEL
-for (let x = 2; x < 27; x++){
+for (let x = 2; x <= 27; x++){
     const element = '<div class="carousel-item"><img class="d-block w-100" src="./assets/new-carousel/' + x + '-edited.jpg" alt="' + x + ' slide"></div>';
     document.querySelector('.horizontal').innerHTML += element;
 }
 
 // VERTICAL CAROUSEL
-for (let x = 2; x < 33; x++){
+for (let x = 2; x <= 33; x++){
     const element = '<div class="carousel-item"><img class="d-block w-100" src="./assets/new-vertical/0' + x + '-edited.jpg" alt="' + x + ' slide"></div>';
     document.querySelector('.vertical').innerHTML += element;
 }
 
 // PHOTO BLOCKS
-for(let x = 1; x < 18; x++){
+for(let x = 1; x <= 46; x++){
     const element = '<div class="boxesT"><img src="./assets/new-blocks/' + x + '-edited.jpg" alt="" class="image"></div>'
     document.getElementById("photo-sections").innerHTML += element;
 }

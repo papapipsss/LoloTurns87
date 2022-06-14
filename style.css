@@ -16,7 +16,7 @@ Color Pallete: https://colorhunt.co/palette/fdefeff4dfd0dad0c2cdbba7
 	--past-vid-width: 700px;
 	--past-vid-height: 400px;
 	--message-boxes-width: 450px;
-	--message-boxes-height: 600px;
+	--message-boxes-height: auto;
 }
 
 
@@ -83,7 +83,7 @@ body{
 /* BANNER STYLES */
 
 #big-picture{
-	background-image: url('https://i.postimg.cc/CLFsXbvX/DSC02951.jpg');
+	background-image: url('https://i.postimg.cc/YSWdkgM5/banner.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
@@ -165,13 +165,6 @@ body{
 
 /* MESSAGE BOXES STYLES */
 
-.titles{
-    font-family: 'Montserrat', Times, serif;
-    font-size: 2em;
-    font-weight:bold;
-    text-align: center;
-}
-
 .boxesQ{
     width: var(--message-boxes-width);
     height: var(--message-boxes-height);
@@ -200,13 +193,13 @@ body{
 
 .mainquote{
     text-align: center;
-    font-size: 1.20em;
+    font-size: 1.10em;
     font-style:italic;
 }
 
 .author{
     text-align: right;
-    font-size: 1.1em;
+    font-size: 1em;
     font-style:italic;
     font-weight: bold;
 }
@@ -231,9 +224,8 @@ body{
 /* FOOTER STYLES */
 
 .footer-text{
-	font-size: 0.85em;
+	font-size: 0.90em;
 	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 0%;
 	text-align: center;
 }
 
@@ -250,7 +242,7 @@ body{
 
 	.boxesT{
 		width: 500px;
-		height: 300px;
+		height: 350px;
 	}
 
 	.boxesT:hover{
