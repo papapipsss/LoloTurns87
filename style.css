@@ -230,22 +230,34 @@ body{
 	font-size: 0.90em;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
+	margin-top: 1rem;
 }
 
 
 /* SCREEN SIZE STYLES */
 
 @media only screen and (min-width:874px) and (max-width:1449px){
+
+	#photoCarousel{
+		flex-wrap: nowrap;
+	}
+
+	.vertical-container{
+		width: 30rem;
+		height: auto;
+		margin-right: 2rem;
+	}
+
 	#big-picture{
-		height:80vh;
+		height:60vh;
 	}
 	.container{
 		width:75%;
 	}
 
 	.boxesT{
-		width: 500px;
-		height: 350px;
+		width: 400px;
+		height: 275px;
 	}
 
 	.boxesT:hover{
@@ -253,36 +265,36 @@ body{
 	}
 
 	.videos{
-		width: 50rem;
-		height: 30rem;
+		width: 25rem;
+		height: 15rem;
 	}
 
 	.past-videos-block{
-		width: 50rem;
-		height: 30rem;
+		width: 25rem;
+		height: 15rem;
 	}
 
 	.boxesQ{
-		width: 800px;
+		width: 390px;
 		height: auto;
 	}
 
 	.mainquote{
-		font-size: 1.70em;
+		font-size: 1.25em;
 	}
 
 	.author{
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 	.image2{
-		width: 45rem;
+		width: 23rem;
 	}
 }
 
 @media only screen and (min-width: 542px) and (max-width:874px){
 	#big-picture{
-		height:50vh;
+		height:30vh;
 	}
 
 	.container{
@@ -313,12 +325,12 @@ body{
 	}
 
 	.boxesQ{
-		width: 550px;
+		width: 450px;
 		height: auto;
 	}
 
 	.mainquote{
-		font-size: 1.25em;
+		font-size: 1.2em;
 	}
 
 	.author{
@@ -326,7 +338,7 @@ body{
 	}
 
 	.image2{
-		width: 30rem;
+		width: 25rem;
 	}
 
 }
