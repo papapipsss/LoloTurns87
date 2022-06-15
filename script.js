@@ -12,7 +12,7 @@ for (let x = 2; x <= 27; x++){
 }
 
 // VERTICAL CAROUSEL
-for (let x = 2; x <= 33; x++){
+for (let x = 2; x <= 34; x++){
     const element = '<div class="carousel-item"><img class="d-block w-100" src="./assets/new-vertical/0' + x + '-edited.jpg" alt="' + x + ' slide"></div>';
     document.querySelector('.vertical').innerHTML += element;
 }
