@@ -18,7 +18,7 @@ for (let x = 2; x <= 34; x++){
 }
 
 // PHOTO BLOCKS
-for(let x = 1; x <= 46; x++){
+for(let x = 1; x <= 51; x++){
     const element = '<div class="boxesT"><img src="./assets/new-blocks/' + x + '-edited.jpg" alt="" class="image"></div>'
     document.getElementById("photo-sections").innerHTML += element;
 }
