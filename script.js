@@ -2,7 +2,7 @@ var vid_links_family = ["1EDT_fMWvs0RoN3P-k6oNLxnD1pgilP2S", "1TuJHnIpURD7CmaS6z
 
 var vid_links_relatives = ["13O1hb8crN573GrM6iJ0t0kVfj87h42ZU", "12-dAQvleg0nYCbLIvYWW3RINy69CGZ83", "108QGz-YDJu0NMuIptenD5z_6pbc2bRCC", "1IcwuACTp4W2Gq0VM6nSfY-1nuCZN1YZD", "11dCGA2PLJCini9IXxluQMrdSxHSx4G33", "1a5d0Uo13AKsNAhlrgARQzGbyPbWI7c1O", "1iLnojo6Ueycjgtf07F0GUVO1QUlVORAO"];
 
-var vid_links_acquaintances = ["1ye-QaXqBoS-3suDfn4QYyOYzAI-ckbch", "1jtd5aRJo-coJAmYBqZirudqH53LUrb3b", "1PRtTaR7Or9wDpALWYLJxfWczMUrIOSjG", "1Y7Pomwlr70iKZ8x1LSa7VlY_4cQSJnYJ"];
+var vid_links_acquaintances = ["1ye-QaXqBoS-3suDfn4QYyOYzAI-ckbch", "1jtd5aRJo-coJAmYBqZirudqH53LUrb3b", "1PRtTaR7Or9wDpALWYLJxfWczMUrIOSjG", "1Y7Pomwlr70iKZ8x1LSa7VlY_4cQSJnYJ", "1T4KO_sfw0nU2y268mQTyheHnusPOHTvJ"];
 
 
 // HORIZONTAL CAROUSEL
