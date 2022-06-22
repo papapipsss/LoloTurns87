@@ -7,7 +7,7 @@ size = 1280, 720
 mypath = "C:/Users/Joshua Felipe/Downloads/New folder/"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
-counter = 47
+counter = 52
 for i in onlyfiles:
     path = mypath + i
     outfile = str(counter) + "-edited"

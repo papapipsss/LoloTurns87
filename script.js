@@ -12,13 +12,13 @@ for (let x = 2; x <= 27; x++){
 }
 
 // VERTICAL CAROUSEL
-for (let x = 2; x <= 34; x++){
+for (let x = 2; x <= 35; x++){
     const element = '<div class="carousel-item"><img class="d-block w-100" src="./assets/new-vertical/0' + x + '-edited.jpg" alt="' + x + ' slide"></div>';
     document.querySelector('.vertical').innerHTML += element;
 }
 
 // PHOTO BLOCKS
-for(let x = 1; x <= 51; x++){
+for(let x = 1; x <= 53; x++){
     const element = '<div class="boxesT"><img src="./assets/new-blocks/' + x + '-edited.jpg" alt="" class="image"></div>'
     document.getElementById("photo-sections").innerHTML += element;
 }
